@@ -20,11 +20,6 @@
     <div class="col-xs-3">
         <ul>
             <li><a href="#merhaba">Merhaba</a></li>
-            <li><a href="#nasil-calisir">Nasıl Çalışır</a>
-                <ul>
-                    <li><a href="#puanlama-sistemi">Puanlama sistemi</a></li>
-                </ul>
-            </li>
             <li><a href="#nasil-baslarim">Nasıl Başlarım</a></li>
         </ul>
     </div>
@@ -36,42 +31,12 @@
             falcı profillerini oluşturacaklarını ve bu profiller üzerinden kendilerine gelen sohbet ve fal isteklerini
             nasıl karşılayacaklarını anlatmak için yardımcı dökümandır.
         </p>
-        <h3 id="nasil-calisir">Nasıl Çalışır</h3>
-        <p>
-            Fallavi'de yorumcu olarak hizmet verecek her bir çalışma arkadaşımızın kendisine ait giriş bilgileri olacak
-            ve
-            her bir yorumcu bu bilgileri kullanarak admin panele giriş yaparak ve kendisine ait profiller oluşturmaya
-            başlar.
-        </p>
-        <p>
-            Her bir yorumcunun kendisine ait 3 adet profil oluşturma hakkı olacaktır.
-            Yorumcu tarafından oluşturulacak her bir profil bilgileri yorumcu tarafından doldurulacaktır. Profillere ait
-            açıklamalar, isim ve profil resmi gibi alanlar, müşterilerinin dikkatini çekeceği için, burada işi tamamen
-            yorumcunun hayal gücüne bırakıyoruz.
-        </p>
-        <h4 id="puanlama-sistemi">Puanlama sistemi</h4>
-        <p>Mobil uygulamada müşteriler falcı profilleri listesini gördüğünde her bir profile ait puan, kredi ve sıradaki
-            kişi sayısını görürler.<br/>
-            Müşteri bir profil detayına girdiklerinde ise girdikleri yorumcu profiline ait baktığı fal sayısı, ortalama
-            cevap süresi ve kendisine yapılan yorumları görürler.
-            Burada puan ve yorumlar çok önemli bir yer tutar çünkü müşterilerimiz her zaman en yüksek puanlı kişileri
-            tercih ederler. <br/>
-            Kredileri yüksek bile olsa yorumları ve puanı yüksek tutan bir kişi her zaman daha fazla talep görür.
-        </p>
-        <p>Fallavi'de bulunan her bir yorumcuya ait profiller ilk açıldığında otomatik olarak 90 puanları olur. Yani hiç
-            fal bakmasanız bile 90 net puanlı profilleriniz olacaktır.<br/>
-            Daha sonrasında bunu yüksek tutmak ise tamamen baktığınız fallardan alacağınız yorum, puan ve cevaplama
-            sürenize göre değişmeye başlar.<br/>
-            Daha yüksek puanlar için her zaman kısa sürede yazışmaya başlamalı ve detaylı bilgi vermelisiniz.
-        </p>
-
         <h3 id="nasil-baslarim">Nasıl Başlarım</h3>
         <p>Fallavi'de profillerinizi düzenlemeye başlamak ve müşterilerinizle yazışmaya başlamak için admin önce admin
             panele giriş yapmalısınız.</p>
         <p>Admin panele giriş yapmak için : <a href="https://fallavi.azurewebsites.net/api/index.php/admin/login">https://fallavi.azurewebsites.net/api/index.php/admin/login</a>
             adresini kullanmalısınız.</p>
         <p>Adrese girdiğinizde sizin mail adreslerinize atılan kullanıcı adı ve şifre ile giriş yapabilirsiniz.</p>
-
         <div class="sample-wrapper">
             <img src="images/login-screen.png" class="screenshot">
             <p>Resim 1 - Giriş Ekranı</p>
@@ -80,7 +45,35 @@
         <p>Giriş bilgilerinizi girdikten sonra güvenlik amacıyla yapılan işlemler sebebiyle 10 saniye kadar sayfa sizi
             bekletebilir
             ardından karşınıza giriş sayfası çıkar. Eğer ilk defa giriş yapıyorsanız veya daha önce herhangi bir chat
-            yapmadıysanız karşınıza bir sayfa çıkacaktır.</p>
+            yapmadıysanız karşınıza boş bir sayfa çıkacaktır. Sol menüden <b>falcılarım</b> sekmesini seçin.</p>
+        <div class="sample-wrapper">
+            <img src="images/home-screen.png" class="screenshot">
+            <p>Resim 2 - Ana Sayfa</p>
+        </div>
+
+        <p>Eğer daha önce bir profil eklemediyseniz karşınıza yine boş bir sayfa çıkacaktır. Burada sol üstte bulunann <b>Yeni Falcı Ekle</b>
+        butonunu kullanarak yeni profil sekmesine gidin.</p>
+        <div class="sample-wrapper">
+            <img src="images/create-new-profile-button.png" class="screenshot">
+            <p>Resim 3 - Yeni profil oluştur</p>
+        </div>
+
+        <p>Bu aşamada karşınıza Resim - 4 de gösterildiği gibi bir sayfa çıkacaktır. Buradan profilinize ait bilgilerinizi, profil resminiz girebilirsiniz.
+            Ortalama cevap süresi, Kredi ve Puan sistem tarafından hesaplanacaktır. Bu alanları siz güncelleyemezsiniz.
+        </p>
+        <div class="sample-wrapper">
+            <img src="images/profile-detail-page.png" class="screenshot">
+            <p>Resim 4 - Profil Detay Sayfası</p>
+        </div>
+
+        <p>Bilgileriniz girdikten sonra sayfanın en altında yer alan Submit butonuna tıklayın tebrikler ilk profiliniz kaydedildi. <br/>
+            Artık falcılarım listesinde <b>Resim - 5 gibi</b> gözükecektir.</p>
+        <div class="sample-wrapper">
+            <img src="images/all-readers-page.png" class="screenshot">
+            <p>Resim 5 - Falcı Listesi</p>
+        </div>
+        <p><b>** Bu aşamadan sonra girdiğiniz profil henüz uygulamada gözükmeyecektir. Önce admin tarafından incelenip onaylanması gereklidir. Ardından müşterilemizle mesajlaşmaya başlayablirsiniz.</b></p>
+
     </div>
 </div>
 </body>
